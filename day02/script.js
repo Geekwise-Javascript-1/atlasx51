@@ -18,19 +18,17 @@
 // }
 
 var age = prompt('what is your age?');
-// var sex = prompt('what is your sex?');
+var sex = prompt('what is your sex?');
 
-// if (age>=21 && sex == 'male') {
-//   alert('you can drink but dont be a douche!!');
-// }else if(age>= 21 && sex='female'){
-//   alert('free booze for you!!');
-// }else{
-//   alert('underage');
-// }
+if (age>=21 && sex == 'male') {
+  alert('you can drink but dont be a douche!!');
+}else if(age>= 21 && sex='female'){
+  alert('free booze for you!!');
+}else{
+  alert('underage');
+}
 
-(sex < 21) ?
-alert('under 21'):
-alert ('over 21');
+
 
 
 // console.log(userResp);

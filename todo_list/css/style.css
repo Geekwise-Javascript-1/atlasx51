@@ -1,0 +1,101 @@
+/* font */
+@import 'https://fonts.googleapis.com/css?family=Trocchi';
+
+
+
+* {
+
+  font-family: 'Trocchi', serif;
+
+}
+/* images */
+body {
+  background-image: url('../images/todolist.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#container {
+  width:75%;
+  max-width:800px;
+  margin-left:auto;
+  margin-right:auto;
+}
+#task {
+  margin:0;
+  padding:0;
+  padding-left:8px;
+  border:0;
+  width:80%;
+  height:50px;
+  background-color:#fff;
+  float:left;
+}
+#todo {
+  padding-left:6px;
+}
+button {
+  background:#2ECC71;
+  display:block;
+  float:left;
+  border:none;
+  padding:0;
+  margin:0;
+  height:50px;
+  width:50px;
+}
+
+button:hover {
+  background: #3FC1C9;
+}
+#todo p {
+  width:80%;
+  display:block;
+  padding:0;
+  padding-left:6px;
+  margin:0;
+  margin-top:2px;
+  height:50px;
+  float:left;
+  background:#ECECEC;
+ }
+#todo button {
+  background:#F22613;
+  margin-top:2px;
+}
+.container {
+  padding-top: 100px;
+  width: 45%;
+  float: left;
+
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+
+
+/* current time style */
+
+#currentTime {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+
+#greetings {
+  font-size: 23px;
+  color: white;
+  text-align: center;
+}

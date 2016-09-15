@@ -18,11 +18,17 @@
 //  console.log( car.model );
 
 
-var a = 12;
-var b = 30;
-var c = b.toString(16);
-var d = 'answer equals';
+// var a = 12;
+// var b = 30;
+// var c = b.toString(16);
+// var d = 'answer equals';
+//
+//
+// var e = d + (a + c);
+// alert(e);
 
-
-var e = d + (a + c);
-alert(e);
+var tri = 0;
+while (tri <= 7) {
+  console.log(length.tri i++);
+  tri = tri + 2;
+}

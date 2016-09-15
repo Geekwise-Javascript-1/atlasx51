@@ -1,0 +1,29 @@
+/* form {
+
+  border: 1px black solid;
+  background-color: yellow;
+  height: 45vh;
+  width: 75vw;
+}
+ */
+
+/*  .dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 100%;
+  background-color: pink;
+  position: absolute;
+} */
+
+
+
+header {
+  background-color: hsla(0, 0%, 0%, .5);
+}
+
+header.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
